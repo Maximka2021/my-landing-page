@@ -21,11 +21,11 @@
                         <li><a class="link" href="#main">Home</a></li>
                         <li><a class="link" href="#about">About</a></li>
                         <li><a class="link" href="#work">Our Work</a></li>
-                        <li><a class="link" href="">Contact Us</a></li>
+                        <li><a class="link" href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="navbar-sign-in">
-                    <button class="login-btn">Log In/Sign Up</button>
+                    <button class="login-btn" id="log-in-sign-in-btn">Log In/Sign Up</button>
                 </div>
         </section>
         <div class="sphere"></div>
@@ -67,14 +67,30 @@
         </div>
    </div>
 
-   <div class="log-in">
-        <button class="btn-close">X</button>
+   <div class="log-in" id="log-in">
+        <button class="btn-close" id="btn-close">X</button>
         <h1>Log In</h1>
         <input type="text" class="username" id="username" placeholder="username">
-        <input type="password" class="password" id="password">
+        <input type="password" class="password" id="password" placeholder="password">
         <button class="btn-log-in">Log In</button>
         <br />
         <button class="btn-sign-up">Sign Up</button>
+   </div>
+
+   <div class="contact-us" id="contact">
+    <div class="square2"></div>
+    <div class="square3"></div>
+    <div class="square4"></div>
+    <div class="square5"></div>
+    <div class="square6"></div>
+    <div class="square7"></div>
+    <div class="square8"></div>
+    <div class="container">
+        <p>Office Hours</p>
+        <p>8AM - 6PM</p>
+        <p class="phone">Call us: 123-456-7890</p>
+        <p class="email">Email: example@gmail.com</p>
+    </div>
    </div>
    <script defer src=".//index.js"></script>
 </body>
