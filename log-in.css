@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #d9ccc9;
+}
+
+.log-in-container{
+    width: 500px;
+    height: 600px;
+    color: black;
+    margin: auto;
+    margin-top: 4%;
+    text-align: center;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e6d8d5, #fffffe);
+    box-shadow: 30px 30px 70px #d9ccc9,  
+                -30px -30px 70px #ffffff;
+}
+
+.log-in-header{
+    padding-top: 20%;
+    font-size: 3rem;
+}
+
+.username-label{
+    font-size: 1.5rem;
+}
+
+.username{
+    margin: 5% 0%;
+    width: 220px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+
+.password-label{
+    font-size: 1.5rem;
+}
+
+.password{
+    margin: 5% 0%;
+    width: 220px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+
+.log-in-btn{
+    width: 150px;
+    height: 40px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    background-color: gray;
+    border-bottom: 5px rgb(91, 91, 91) solid;
+    transition: .2s;
+}
+
+.log-in-btn:active{
+    border-bottom: 2px rgb(91, 91, 91) solid;
+    transform: translateY(3px);
+}
+
+.log-in-btn:hover{
+    background-color: black;
+    color: grey;
+}
+
+.sign-up-btn{
+    margin-top: 5%;
+    width: 200px;
+    height: 40px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    background-color: gray;
+    border-bottom: 5px rgb(91, 91, 91) solid;
+    transition: .2s;
+}
+
+.sign-up-btn:active{
+    border-bottom: 2px rgb(91, 91, 91) solid;
+    transform: translateY(3px);
+}
+
+.sign-up-btn:hover{
+    background-color: black;
+    color: gray;
+}
