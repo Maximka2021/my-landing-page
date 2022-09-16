@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./log-in.css">
+    <title>Log-In/Sign-In</title>
+</head>
+<body>
+    <div class="log-in-container">
+        <h1 class="log-in-header">Log-In</h1>
+        <form>
+            <label for="username" class="username-label">Username:</label>
+            <input type="text" class="username" id="uername" placeholder="Username" minlength="3" required>
+            <br />
+            <label for="password" class="password-label">Password:</label>
+            <input type="password" class="password" id="password" placeholder="Password" minlength="6" required>
+            <br />
+            <button id="log-in-btn" class="log-in-btn">Log-In</button>
+            <br />
+            <button id="sign-up-btn" class="sign-up-btn">Sign-Up Instead</button>
+        </form>
+    </div>
+    <script defer src="./log-in.js"></script>
+</body>
+</html>
