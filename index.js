@@ -1,6 +1,7 @@
 const navbarSection = document.querySelector('.navbar-section');
 const link = document.getElementsByClassName('link');
 const navbarBrend = document.querySelector('.navbar-brend');
+const logInSignInBtn = document.getElementById('log-in-sign-in-btn');
 
 window.addEventListener('scroll', () =>{
     let scrolled = Math.floor(window.scrollY);
@@ -19,3 +20,6 @@ window.addEventListener('scroll', () =>{
     }
 })
 
+logInSignInBtn.addEventListener('click', () =>{
+    window.location.href = './/log-in.html';
+})
